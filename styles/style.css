@@ -45,6 +45,7 @@ html, body {
 }
 
 .main__center {
+  margin-top: 40px;
   text-align: center;
 }
 
