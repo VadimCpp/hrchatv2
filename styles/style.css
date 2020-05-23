@@ -1,0 +1,40 @@
+.header {
+  height: 60px;
+}
+
+.header__title {
+  text-align: center;
+  color: #444;
+}
+
+.header__hr {
+  border-top: 1px solid rgba(44, 44, 44, .2);
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer__hr {
+  border-top: 1px solid rgba(44, 44, 44, .2);
+}
+
+.footer__made-by-roscomputing {
+  height: 50px;
+  width: 100%;
+  font-style: italic;
+  text-align: right;
+
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-top: 10px;
+
+  color: #444;
+}
