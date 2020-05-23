@@ -1,14 +1,44 @@
+html, body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   height: 60px;
+  border-bottom: 1px solid rgba(44, 44, 44, .2);
+
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  padding-top: 20px;
+  
   text-align: center;
-  color: #444;
+  color: #444;  
 }
 
-.header__hr {
-  border-top: 1px solid rgba(44, 44, 44, .2);
+.main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__text {
+  color: #444;
 }
 
 .footer {
@@ -22,19 +52,19 @@
   padding-right: 10px;
 }
 
-.footer__hr {
-  border-top: 1px solid rgba(44, 44, 44, .2);
-}
-
 .footer__made-by-roscomputing {
+  box-sizing: border-box;
+  padding-top: 20px;
+
   height: 50px;
   width: 100%;
   font-style: italic;
   text-align: right;
 
-  box-sizing: border-box;
+  border-top: 1px solid rgba(44, 44, 44, .2);
+
   padding-right: 10px;
-  padding-top: 10px;
+  padding-left: 10px;
 
   color: #444;
 }
