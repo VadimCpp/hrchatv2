@@ -82,25 +82,33 @@ html, body {
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(44, 44, 44, .2);
 }
 
 .footer__informer {
-  padding-top: 20px;
+  padding-left: 20px;
+
+  display: inline-block;
 }
 
 .footer__made-by-roscomputing {
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 15px;
 
   height: 50px;
   width: 100%;
   font-style: italic;
   text-align: right;
 
-  border-top: 1px solid rgba(44, 44, 44, .2);
-
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
 
   color: #444;
+
+  display: inline-block;
 }
