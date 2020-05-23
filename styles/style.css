@@ -84,6 +84,10 @@ html, body {
   padding-right: 10px;
 }
 
+.footer__informer {
+  padding-top: 20px;
+}
+
 .footer__made-by-roscomputing {
   box-sizing: border-box;
   padding-top: 20px;
