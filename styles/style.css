@@ -126,6 +126,13 @@ html, body {
   color: #444; 
 }
 
+.main__subtitle {
+  margin: 0;
+  padding-top: 5px;
+  text-align: center;
+  color: #444;
+}
+
 .main__text {
   color: #444;
 }
