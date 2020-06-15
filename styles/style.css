@@ -63,29 +63,29 @@ html, body {
 
 .main__image {
   width: 280px;
-  height: 420px;
+  height: 280px;
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 360px) {
   .main__image {
     width: 320px;
-    height: 480px;
+    height: 320px;
   }  
 }
 
 @media screen and (min-width: 375px) {
   .main__image {
     width: 335px;
-    height: 502px;
+    height: 335px;
   }  
 }
 
 @media screen and (min-width: 414px) {
   .main__image {
     width: 375px;
-    height: 560px;
+    height: 375px;
   }  
 }
 
