@@ -15,11 +15,37 @@ html, body {
   height: 60px;
   border-bottom: 1px solid rgba(44, 44, 44, .2);
 
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0;
 
   background-color: white;
-  z-index: 1;
+  z-index: -1;
+}
+
+.header--bg-image {
+  background: url('../img/elena_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  height: 215px;
+}
+
+@media screen and (min-width: 360px) {
+  .header--bg-image {
+    height: 235px;
+  }  
+}
+
+@media screen and (min-width: 375px) {
+  .header--bg-image {
+    height: 240px;
+  }  
+}
+
+@media screen and (min-width: 414px) {
+  .header--bg-image {
+    height: 270px;
+  }  
 }
 
 .header__title {
