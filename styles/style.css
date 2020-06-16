@@ -158,20 +158,43 @@ html, body {
 
 .main__text {
   color: #444;
-  padding: 10px 20px;
+  padding: 0 20px;
+  margin: 0;
 }
 
 .main__text--center {
   text-align: center;
 }
 
+.main__text--pt {
+  padding-top: 20px;
+}
+
+.main__text--pt-3 {
+  padding-top: 30px;
+}
+
+.main__text--pb {
+  padding-bottom: 20px;
+}
+
+.main__text--pb-3 {
+  padding-bottom: 30px;
+}
+
 .main__separator {
-  height: 200px;
+  height: 260px;
   background: url('../img/elena_bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
+}
+
+.main__separator-blur {
+  background-color: rgba(255, 255, 255, .5);
+  width: 100%;
+  height: 100%;
 }
 
 .main__center {
