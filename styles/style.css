@@ -6,6 +6,22 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.background {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background__cover {
+  background-image: url('../img/elena_bg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -13,39 +29,13 @@ html, body {
   width: 100%;
 
   height: 60px;
-  border-bottom: 1px solid rgba(44, 44, 44, .2);
 
   margin: 0;
-
-  background-color: white;
-  z-index: -1;
 }
 
-.header--bg-image {
-  background: url('../img/elena_bg.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;  
-  height: 215px;
-}
-
-@media screen and (min-width: 360px) {
-  .header--bg-image {
-    height: 235px;
-  }  
-}
-
-@media screen and (min-width: 375px) {
-  .header--bg-image {
-    height: 240px;
-  }  
-}
-
-@media screen and (min-width: 414px) {
-  .header--bg-image {
-    height: 270px;
-  }  
+.header--large-height {
+  position: initial;
+  height: 200px;
 }
 
 .header__title {
@@ -69,6 +59,10 @@ html, body {
   align-items: center;  
 }
 
+.main__bg {
+  background-color: white;
+}
+
 .main--center {
   justify-content: center;
 }
@@ -82,10 +76,38 @@ html, body {
 .main__image-container {
   display: flex;
   justify-content: center;
-  margin-top: 75px;
+  position: relative;
+}
+
+.main__image-bg {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 360px) {
+  .main__image-bg {
+    height: 160px;
+  }  
+}
+
+@media screen and (min-width: 375px) {
+  .main__image-bg {
+    height: 168px;
+  }  
+}
+
+@media screen and (min-width: 414px) {
+  .main__image-bg {
+    height: 188px;
+  }  
 }
 
 .main__image {
+  z-index: 1;
   width: 280px;
   height: 280px;
   object-fit: contain;
@@ -184,11 +206,6 @@ html, body {
 
 .main__separator {
   height: 260px;
-  background: url('../img/elena_bg.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;  
 }
 
 .main__separator-blur {
@@ -212,15 +229,15 @@ html, body {
 }
 
 .main__center {
-  margin: 30px 0 40px;
+  padding: 30px 0 40px;
   text-align: center;
+  margin: 0;
 }
 
 .main__button {
   background-color: #1e97cb!important;
   border-color: #1e97cb!important;
   color: #fff;
-  margin: .25rem .25rem!important;
   display: inline-block;
   font-weight: 400;
   line-height: 1.25;
@@ -251,6 +268,10 @@ html, body {
   align-items: center;
 
   border-top: 1px solid rgba(44, 44, 44, .2);
+}
+
+.footer__bg {
+  background-color: white;
 }
 
 .footer--absolute {
