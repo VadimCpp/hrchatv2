@@ -22,6 +22,10 @@ html, body {
   height: 100%;
 }
 
+.background__cover--margo {
+  background-image: url('../img/margo_bg.jpg');
+}
+
 .header {
   position: absolute;
   top: 0;
