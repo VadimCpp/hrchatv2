@@ -26,6 +26,10 @@ html, body {
   background-image: url('../img/margo_bg.jpg');
 }
 
+.background__cover--serge {
+  background-image: url('../img/serge_bg.jpg');
+}
+
 .header {
   position: absolute;
   top: 0;
