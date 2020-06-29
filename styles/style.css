@@ -30,6 +30,10 @@ html, body {
   background-image: url('../img/serge_bg.jpg');
 }
 
+.background__cover--irina {
+  background-image: url('../img/irina_bg.jpg');
+}
+
 .header {
   position: absolute;
   top: 0;
