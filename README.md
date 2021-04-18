@@ -1,5 +1,5 @@
 # hrchatv2
-> Официальный сайт сообщества HR
+> Проект закрыт
 
-Посетите сайт [hrchatv2.ru](https://hrchatv2.ru/)
- и получите скидку 5% на первую карьерную консультацию:
+Подробнее в посте:
+https://frontend-basics.blogspot.com/2021/04/close-hrchatv2.html
